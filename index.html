@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+
+  <style>
+    .der{
+      border-right: 1.3px solid #000000;
+    }
+    .on{
+      border-top: 1.3px solid #000000;
+    }
+    .izq{
+      border-left: 1.3px solid #000000;
+    }
+    .down{
+      border-bottom: 1.3px solid #000000;
+    }
+    .img{
+      width: 80.9px;
+    }
+  </style>
+  </head>
+  <body>
+<div class="row">
+    <div class="col-sm-3"></div>
+    <div class="row col-sm-6" style="background-color: white; text-align:center; display: inline-block; margin-top: 5%;">
+    <!-- INICIAL-->
+      <div id="a1" class="col-sm-4 der down">
+         <img id="im" src="imgs/empty.jpg" name="emp">
+      </div>
+      <div id="a2" class="col-sm-4 der down izq">
+        <img id="im" src="imgs/empty.jpg" name="emp">
+      </div>
+      <div id="a3" class="col-sm-4 down izq">
+        <img id="im" src="imgs/empty.jpg">
+      </div>
+      <!-- MITAD-->
+      <div id="b1" class="col-sm-4 on der down">
+        <img src="imgs/empty.jpg">
+      </div>
+      <div id="b2" class="col-sm-4 on der down izq">
+        <img src="imgs/empty.jpg">
+      </div>
+      <div id="b3" class="col-sm-4 on down izq">
+        <img src="imgs/empty.jpg">
+      </div>
+      <!-- FINAL-->
+      <div id="c1" class="col-sm-4 on der">
+        <img src="imgs/empty.jpg">
+      </div>
+      <div id="c2" class="col-sm-4 on der izq">
+        <img src="imgs/empty.jpg">
+      </div>
+      <div id="c3" class="col-sm-4 on izq">
+        <img src="imgs/empty.jpg">
+      </div>
+      <div class="col-sm-3"></div>
+
+
+    </div>
+</div>
+<input id="root" type="hidden" value="init">
+
+  <script src="scripts.js"></script>
+  </body>
+</html>
+
+
