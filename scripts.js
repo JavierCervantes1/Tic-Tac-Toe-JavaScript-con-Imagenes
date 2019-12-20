@@ -13,8 +13,8 @@
 
   const ini = document.getElementById("im");
   const vacio = '<img id="im" src="empty.jpg">';
-  const x = "<img id='im' src='Equis.jpg' name='x'>";
-  const o = "<img id='im' src='Circulo.jpg' name='o'>";
+  const x = "<img id='im' src='imgs/Equis.jpg' name='x'>";
+  const o = "<img id='im' src='imgs/Circulo.jpg' name='o'>";
 
   /* Se agrega el evento al elemento */
   a1.addEventListener("click", changeImgA1);
